@@ -1,0 +1,112 @@
+body {
+    background-image: url("../images/groot.png");
+    max-width: 100%;
+    margin: 0;
+}
+
+main {
+    display: flex;
+}
+
+#paginaindex {
+    background-image: url('../images/hei2.png');
+}
+
+/* alles met navigatie balk */
+
+
+nav ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+
+}
+
+nav li {
+    flex-grow: 1;
+}
+
+nav a {
+    display: block;
+    font-size: 20px;
+    padding: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5em;
+    color: #ffffff;
+    background-color: #60b467;
+    font-weight: 700;
+    text-align: center;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: rgb(157, 80, 209);
+}
+
+nav a:active {
+    background-color: rgb(100, 6, 163)
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+
+section {
+    color: floralwhite;
+    background-color: rgb(53, 112, 53);
+    background-position: right;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    margin-top: 7px;
+    margin-left: 5%;
+    margin-right: 70%;
+    padding: 2%;
+    font-size: 1.5em;
+}
+
+
+.tekstblokje {
+    max-width: 20em;
+    margin-inline: auto;
+    margin: 0.5em;
+}
+
+.imp {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
+}
+
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+    font-weight: bold;
+}
+
+
+
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
